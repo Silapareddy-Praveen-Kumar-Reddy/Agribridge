@@ -38,14 +38,3 @@ HOME PAGE
 ├── web/
 └── windows/
 ```
-PRODUCT PAGE 
-![Screenshot 2025-04-24 144748](https://github.com/user-attachments/assets/b56b2921-dc66-4ca0-b102-03132f76d6cd)
-CART PAGE
-![Screenshot 2025-04-24 144839](https://github.com/user-attachments/assets/89fd287b-4efd-42f0-acb2-36c7fef1ec1c)
-ORDER PAGE
-![Screenshot 2025-04-24 145620](https://github.com/user-attachments/assets/b690edb4-ad92-4c1c-8e23-f3177bed0e1e)
-CONTACT PAGE 
-![Screenshot 2025-04-24 145648](https://github.com/user-attachments/assets/8096002e-842f-4cf7-af76-65509b19881f)
-VENDOR REGISTRATION PAGES 
-![Screenshot 2025-04-24 145715](https://github.com/user-attachments/assets/22a3504f-15bd-45c5-a1d1-9e4c6d2b0e02)
-![Screenshot 2025-04-24 145733](https://github.com/user-attachments/assets/1394ee82-3279-436e-8dab-fc97552f953b)
