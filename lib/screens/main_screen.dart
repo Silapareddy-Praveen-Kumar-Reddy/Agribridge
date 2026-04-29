@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:agribridge/providers/cart_provider.dart';
 import 'package:agribridge/screens/home_page.dart';
-import 'package:agribridge/screens/cart_screen.dart';
 import 'package:agribridge/screens/vendor_opportunities_screen.dart';
-import 'package:agribridge/screens/vendor_form_screen.dart';
 import 'package:agribridge/screens/contact_screen.dart';
 import 'package:agribridge/widgets/floating_cart_button.dart';
 
