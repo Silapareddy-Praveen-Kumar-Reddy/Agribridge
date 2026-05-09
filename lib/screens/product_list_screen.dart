@@ -22,6 +22,13 @@ class _ProductListScreenState extends State<ProductListScreen> {
     super.dispose();
   }
 
+  int _getColumnCount(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+    if (width >= 900) return 4;   // desktop
+    if (width >= 600) return 3;   // tablet
+    return 2;                      // mobile
+  }
+
   List<Product> _getFilteredProducts(String category) {
     return ProductData.products.where((product) {
       final matchesCategory =
@@ -49,7 +56,10 @@ class _ProductListScreenState extends State<ProductListScreen> {
             ],
           ),
         ),
-        body: Column(
+        body: Center(
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(maxWidth: 1200),
+            child: Column(
           children: [
             // Search Bar
             Padding(
@@ -101,6 +111,8 @@ class _ProductListScreenState extends State<ProductListScreen> {
             ),
           ],
         ),
+          ),
+        ),
         floatingActionButton: const FloatingCartButton(),
       ),
     );
@@ -129,9 +141,9 @@ class _ProductListScreenState extends State<ProductListScreen> {
 
     return GridView.builder(
       padding: const EdgeInsets.all(16),
-      gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-        crossAxisCount: 2,
-        childAspectRatio: 0.7,
+      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+        crossAxisCount: _getColumnCount(context),
+        childAspectRatio: 0.75,
         crossAxisSpacing: 16,
         mainAxisSpacing: 16,
       ),

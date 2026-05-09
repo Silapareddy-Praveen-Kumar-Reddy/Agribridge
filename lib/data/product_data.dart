@@ -69,7 +69,7 @@ class ProductData {
       description: 'Premium quality red onions (1 kg)',
       price: 35,
       imageUrl:
-          'https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=500',
+          'https://images.unsplash.com/photo-1618512496248-a07fe83aa8cb?w=500&h=500&fit=crop',
       category: 'Vegetables',
       unit: 'kg',
     ),
@@ -79,7 +79,7 @@ class ProductData {
       description: 'Fresh white cauliflower (per head)',
       price: 40,
       imageUrl:
-          'https://images.unsplash.com/photo-1613743983303-b3e89f8a2b80?w=500',
+          'https://images.unsplash.com/photo-1568584711271-6c929fb49b60?w=500&h=500&fit=crop',
       category: 'Vegetables',
       unit: 'piece',
     ),
@@ -91,7 +91,7 @@ class ProductData {
       description: 'Pure organic honey (500g)',
       price: 200,
       imageUrl:
-          'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500',
+          'https://images.unsplash.com/photo-1587049352846-4a222e784d38?w=500&h=500&fit=crop',
       category: 'Lifestyle',
       unit: 'jar',
     ),
@@ -101,7 +101,7 @@ class ProductData {
       description: 'Organic herbal tea blend (100g)',
       price: 120,
       imageUrl:
-          'https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=500',
+          'https://images.unsplash.com/photo-1597481499750-3e6b22637e12?w=500&h=500&fit=crop',
       category: 'Lifestyle',
       unit: 'pack',
     ),
