@@ -3,16 +3,7 @@
   publish = "build/web"
   functions = "netlify/functions"
 
-[build.environment]
-  # Flutter requires some environment variables
-  FLUTTER_ROOT = "$HOME/flutter"
-  PATH = "$HOME/flutter/bin:$PATH"
-
-# Cache Flutter SDK to speed up builds
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
-
-# Redirect all routes to index.html for SPA routing (if needed for Flutter web)
+# Redirect all routes to index.html for SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
